@@ -1,0 +1,153 @@
+body{
+    background-color: rgba(173, 173, 209, 0.722);
+    font-size: 20px;
+}
+h3{
+    color: rgb(81, 81, 230);
+    text-decoration: solid
+}
+img{
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+
+}
+.entire{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+    width: 750px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+main{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.name{
+    display: inline;
+}
+#name1{
+    width: 280px;
+    height: 30px;
+    margin-right: 32px;
+    border: 0;
+    box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
+    border-radius: 5px;
+}
+#name2{
+    width: 280px;
+    height: 30px;
+    border: 0;
+    box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 16px;
+}
+.Gender, .DOB{
+    display: inline;
+}
+.Gender{
+    margin-right: 88px;
+    
+}
+#date{
+    width: 171.9px;
+    height: 35px;
+}
+input[type="date"]{
+    font-size: 16px;
+    border: 0;
+    box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
+    border-radius: 5px;
+}
+#country{
+    width: 605px;
+    height: 35px;
+    border: 0;
+    box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
+    border-radius: 5px;
+}
+#password, #email{
+    width: 601px;
+    height: 35px;
+    border: 0;
+    box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
+    border-radius: 5px;
+}
+#terms{
+    margin-top: -20px;
+    margin-left: 80px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+#submit{
+    margin-left: 280px;
+    margin-right: 300px;
+    background-color: rgb(158, 158, 243);
+    border: 0;
+    box-shadow: 0 0 5px 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 50px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.Google{
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+button{
+    margin-left: 200px;
+    margin-right: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
+}
+#sign-google{
+    margin-left: 15px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+#button{
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+.account{
+    margin-left: 90px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+.or{
+    margin-left: 205px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+

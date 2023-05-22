@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="./Assets/sign_in_styles.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <main>
+        <div class="container">
+          <img src="./Assets/sen2.png" alt="SEN Logo" />
+        </div>
+        <h3 class="account1">Sign In</h3>
+        <p class="account2">Sign in to your Account</p>
+        <div class="form-container">
+          <form id="form" action="new" method="post">
+            <div>
+              <input
+                validate
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <br />
+            <div class="password">
+              <input
+                required
+                type="password"
+                name="text"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="submit">
+              <button id="submit1" type="submit">Sign In</button>
+            </div>
+          </form>
+        </div>
+        <div id="button">
+          <button id="google-button"
+            onclick="window.location.href='https://accounts.google.com/servicelogin?hl=en-gb';"
+          >
+            <img
+              class="Google"
+              src="./Assets/google-logo-icon-png-transparent-background-osteopathy-16.png"
+              alt="Google-logo"
+            />
+            <p id="sign-google">Sign in with Google</p>
+          </button>
+        </div>
+      </main>
+      <div class="aside">
+        <div class="full-height">
+          <h3 class="account3">New Here?</h3>
+          <p class="account4">Sign up and discover new opportunities!</p>
+          <div class="submit">
+            <a href="./sign_up.html"><button id="submit2">Sign Up</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
