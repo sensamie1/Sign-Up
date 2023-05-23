@@ -48,10 +48,7 @@ main {
   box-shadow: 0 0 5px 2px rgba(91, 91, 139, 0.722);
   border-radius: 5px;
 }
-.aside {
-  background-color: rgba(213, 225, 247);
-  flex-basis: 50%;
-}
+
 .background-image {
   position: relative;
 }
@@ -69,6 +66,7 @@ main {
   background-repeat: no-repeat;
   background-position: top, bottom;
   padding-left: 130px;
+  background-color: rgba(213, 225, 247);
 }
 
 .full-height {
